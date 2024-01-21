@@ -24,6 +24,7 @@ const customer = {
   },
 };
 
+console.log('______________TASK-1________________');
 customer.setDiscount(0.15);
 console.log(customer.getDiscount()); // 0.15
 customer.addOrder(5000, 'Steak');

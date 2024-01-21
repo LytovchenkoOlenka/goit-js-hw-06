@@ -26,6 +26,7 @@ class StringBuilder {
 }
 
 const builder = new StringBuilder('.');
+console.log('______________TASK-3________________');
 console.log(builder.getValue()); // "."
 builder.padStart('^');
 console.log(builder.getValue()); // "^."
